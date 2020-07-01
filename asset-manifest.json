@@ -1,0 +1,18 @@
+{
+  "files": {
+    "app.js": "/react-native-input-focus/static/js/app.24053f3c.chunk.js",
+    "app.js.map": "/react-native-input-focus/static/js/app.24053f3c.chunk.js.map",
+    "runtime~app.js": "/react-native-input-focus/static/js/runtime~app.8141e31c.js",
+    "runtime~app.js.map": "/react-native-input-focus/static/js/runtime~app.8141e31c.js.map",
+    "static/js/2.81d3f94a.chunk.js": "/react-native-input-focus/static/js/2.81d3f94a.chunk.js",
+    "static/js/2.81d3f94a.chunk.js.map": "/react-native-input-focus/static/js/2.81d3f94a.chunk.js.map",
+    "index.html": "/react-native-input-focus/index.html",
+    "manifest.json": "/react-native-input-focus/manifest.json",
+    "serve.json": "/react-native-input-focus/serve.json"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.8141e31c.js",
+    "static/js/2.81d3f94a.chunk.js",
+    "static/js/app.24053f3c.chunk.js"
+  ]
+}
