@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-native-input-focus/static/js/runtime~app.8141e31c.js"
   },
   {
-    "revision": "42e86391c7b3e401a202",
-    "url": "/react-native-input-focus/static/js/app.48859151.chunk.js"
+    "revision": "7f1d4a00945fe2e6215e",
+    "url": "/react-native-input-focus/static/js/app.1e722e84.chunk.js"
   },
   {
     "revision": "e30d011e35c76c862d04",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-native-input-focus/manifest.json"
   },
   {
-    "revision": "9c2d4f55999326cab21327801c09770f",
+    "revision": "aeced5900c78457b2ca11ef89ce9dd7a",
     "url": "/react-native-input-focus/index.html"
   },
   {
