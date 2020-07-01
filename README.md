@@ -4,9 +4,9 @@
 
 [Demo: tomfa.github.io/react-native-input-focus](https://tomfa.github.io/react-native-input-focus/)
 
-| Browser | App |
-| -------- | ---- |
-| ![browser](https://user-images.githubusercontent.com/1502702/86298652-7c511f80-bbfe-11ea-89b5-57f15ed32d06.gif) | ![app](https://user-images.githubusercontent.com/1502702/86298668-8a06a500-bbfe-11ea-9ce1-ae99cd0e666c.gif) |
+| OTP usage | Keyboard | App | 
+| -------- | ---- | ----- |
+| ![output](https://user-images.githubusercontent.com/1502702/86300117-3a29dd00-bc02-11ea-9ab2-8a647c8c5f7a.gif) | ![browser](https://user-images.githubusercontent.com/1502702/86298652-7c511f80-bbfe-11ea-89b5-57f15ed32d06.gif) | ![app](https://user-images.githubusercontent.com/1502702/86298668-8a06a500-bbfe-11ea-9ce1-ae99cd0e666c.gif) | 
 
 
 ## Usage
@@ -29,6 +29,37 @@ return (
 - Example use: [Inputs.tsx](https://github.com/tomfa/react-native-input-focus/blob/master/Inputs.tsx)
 
 ## Examples
+
+### OTP usage
+
+```tsx
+<TextInput
+  keyboardType="phone-pad"
+  ref={setRef("one")}
+  maxLength={1}
+  onChangeText={(t) => t.length && focus("two")}
+/>
+<TextInput
+  keyboardType="phone-pad"
+  ref={setRef("two")}
+  maxLength={1}
+  onChangeText={(t) => t.length && focus("three")}
+/>
+<TextInput
+  keyboardType="phone-pad"
+  ref={setRef("three")}
+  maxLength={1}
+  onChangeText={(t) => t.length && focus("four")}
+/>
+<TextInput
+  keyboardType="phone-pad"
+  ref={setRef("four")}
+  maxLength={1}
+  onChangeText={(t) => t.length && focus("submit")}
+/>
+```
+
+_See [gist](https://gist.github.com/tomfa/f2404e5a4c38c83d0eeb44d32c01b577) for full working code._
 
 ### onSubmitEditing not triggering
 For some keyboardTypes the phone will assume that returnKey intends a line shift, and the TextInput will not blur. This causes onSubmitEditing not to trigger.
